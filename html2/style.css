@@ -1,0 +1,49 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: beige;
+     
+
+     }
+     h1 {
+        font-family:'Times New Roman', Times, serif;
+        color:red ;
+        width:20% ;
+        text-align: center;
+    
+        }
+        section{
+           background-color:rgb(rgb(81, 31, 31), rgb(31, 174, 31), rgb(13, 13, 223)) ;
+           color: aqua;
+           
+            }
+         a:link{
+           background-color:rgb(rgb(201, 188, 188), rgb(102, 113, 102), rgb(172, 172, 180)) ;
+           color: aqua;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                
+                 }
+                 
+         a:hover {
+           background-color:rgb(rgb(68, 32, 32), rgb(36, 89, 36), rgb(21, 21, 131)) ;
+           color: aqua;
+                    
+                     }
+        article {
+            background-image:url(https://picsum.photos/id/237/200/300);
+             background-repeat:no-repeat ;
+            background-size: 100%; 
+            color: blue;
+                    
+                      }
+        
+    .giallo{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: yellow;
+
+
+        
+                 
+                   }
+        
+
+
