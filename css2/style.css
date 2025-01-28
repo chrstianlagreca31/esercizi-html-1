@@ -1,0 +1,99 @@
+nav ol{ 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   height:20vh ;
+   cursor: pointer ;
+   display: flex;
+   align-items: center;
+   
+   
+  
+   
+   
+  
+}
+nav:hover{ 
+    border-bottom: 3px solid black; 
+ }
+ol li{ 
+    display: inline;
+    height:20vh ;
+    padding: 20px;
+    
+ }
+ .img1{ 
+    
+    height: 40px; 
+   
+   
+ }
+ .li1 { 
+    padding-left: 200px; 
+   
+ }
+ button{ 
+    background-color: yellow;
+    border: 0px;
+    font-size: 15px;
+} 
+ header{ 
+    height: 100px;
+    width: 100%;
+    background-color: lightgrey;
+    position: relative;
+    bottom: 80px;
+    
+    
+   
+ }
+ h1,h3{ 
+    display: flex;
+    padding-left: 50px;
+}
+section{ 
+    display: flex;
+  justify-content: center;
+  background-color: lightyellow;
+  height: 500px;
+    
+ }
+  
+.link1 { 
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   color: black;
+  
+  
+   
+  
+  
+   
+}
+.img2{ 
+    height: 300px;
+    width: 500px;
+   
+    
+ }
+ article{
+ 
+ height: 300px;
+ width: 500px;
+ margin-right: 50px;
+ margin-left:50px;
+ border: solid 2px;
+border-color: black;
+
+}
+.ok{
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-image: cover;
+    
+   }
+   aside{
+    width: 10px;
+    padding-left: 1px;
+    box-shadow: inset 15px 0 -5px black;
+    font-style: italic;
+    
+   }
+ 
