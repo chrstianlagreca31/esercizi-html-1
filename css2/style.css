@@ -1,22 +1,37 @@
+.intestazione{ 
+    min-height: 20vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    
+   
+ }
 nav ol{ 
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   height:20vh ;
-   cursor: pointer ;
-   display: flex;
-   align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    height: 10vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px;
    
+    
+    
    
-  
+    
    
-   
-  
+ }
+ .giovanni{
+   display: block;
 }
+ 
+
 nav:hover{ 
     border-bottom: 3px solid black; 
  }
 ol li{ 
     display: inline;
-    height:20vh ;
+    height:10vh ;
     padding: 20px;
     
  }
@@ -35,25 +50,18 @@ ol li{
     border: 0px;
     font-size: 15px;
 } 
- header{ 
-    height: 100px;
-    width: 100%;
-    background-color: lightgrey;
-    position: relative;
-    bottom: 80px;
-    
-    
-   
- }
+ 
  h1,h3{ 
     display: flex;
     padding-left: 50px;
 }
-section{ 
+.gg{ 
     display: flex;
   justify-content: center;
+  align-items: center;
   background-color: lightyellow;
-  height: 500px;
+  min-height: 100vh;
+  
     
  }
   
@@ -74,26 +82,125 @@ section{
    
     
  }
- article{
+ .gg1{
  
- height: 300px;
+ height: 500px;
  width: 500px;
  margin-right: 50px;
  margin-left:50px;
  border: solid 2px;
 border-color: black;
 
+
+
+
+
 }
+article{
+ 
+    width: 30%;
+    display: inline-block;
+    height: 80vh;
+    
+    
+   }
 .ok{
     background-image: url(https://picsum.photos/seed/picsum/200/300);
     background-image: cover;
     
    }
    aside{
-    width: 10px;
-    padding-left: 1px;
-    box-shadow: inset 15px 0 -5px black;
-    font-style: italic;
+    background-color: rgba(238, 255, 0, 0.577);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+   div {
+    
+   
+    display: flex;
+    justify-content: end;
+    
     
    }
- 
+   .giovanni2{
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    padding: 0px 20px;
+    position: sticky;
+    bottom: 0px;
+    top: 0px;
+    cursor: pointer;
+    animation:infinite opacity 2.5s both;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+   @media only screen and (max-width: 600px){
+    
+     .li1 { 
+        padding-left: 20px; 
+       
+     }
+      .gg{ 
+     flex-direction: column;
+     padding-left: 30px;
+     min-height: 100vh;
+       
+     }
+     
+ .gg1{
+        width: 80%;
+    
+        margin-top: 100px;
+        height: 60vh;
+        
+        
+       
+       }
+     
+       .img2{ 
+        width: 100%;
+        height: 200px;
+       
+        
+     }
+     
+       header { 
+        width: 50%;
+         
+        
+      }
+       nav ol { 
+       width: 80%;
+        display: flex;
+       justify-content: flex-start;
+       align-items: start;
+       padding: 0px 3px;
+       
+     }
+body{ 
+    width: 100vh;
+    
+    
+  }
+
+   }
+   
+
+    
